@@ -55,6 +55,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="272" id="wW3-cm-pLd"/>
                                                         </constraints>
+                                                        <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -84,6 +85,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="272" id="FVi-p0-qXd"/>
                                                         </constraints>
+                                                        <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -113,6 +115,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="272" id="sqB-HG-Ig6"/>
                                                         </constraints>
+                                                        <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -122,13 +125,19 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.15294117647058825" green="0.33333333333333331" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.33333333333333331" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RMA-aJ-UTV" secondAttribute="trailing" constant="16" id="MRn-Xm-9Nn"/>
                             <constraint firstItem="RMA-aJ-UTV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aPk-1O-OGU"/>
                             <constraint firstItem="RMA-aJ-UTV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="wLD-xU-8Jd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueColourIntensityLabel" destination="BzZ-vM-HME" id="2iJ-CU-eM0"/>
+                        <outlet property="colourPanelView" destination="y6S-wR-kgy" id="YFQ-Iy-jGQ"/>
+                        <outlet property="greenColourIntensityLabel" destination="ewj-BC-uuL" id="eBu-b0-Qje"/>
+                        <outlet property="redColourIntensityLabel" destination="3sY-pR-Sal" id="3bc-xF-FuK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,6 +147,15 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

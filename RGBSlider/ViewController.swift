@@ -7,8 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+    @IBOutlet var colourPanelView: UIView!
+    
+    @IBOutlet var redColourIntensityLabel: UILabel!
+    @IBOutlet var greenColourIntensityLabel: UILabel!
+    @IBOutlet var blueColourIntensityLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
