@@ -56,6 +56,9 @@
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="272" id="wW3-cm-pLd"/>
                                                         </constraints>
                                                         <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
+                                                        <connections>
+                                                            <action selector="redSliderValueChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="Xgt-Bi-Lp1"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -86,6 +89,9 @@
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="272" id="FVi-p0-qXd"/>
                                                         </constraints>
                                                         <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
+                                                        <connections>
+                                                            <action selector="greenSliderValueChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="orD-ED-ZX9"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -116,6 +122,9 @@
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="272" id="sqB-HG-Ig6"/>
                                                         </constraints>
                                                         <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
+                                                        <connections>
+                                                            <action selector="blueSliderValueChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="Azl-3V-voG"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>

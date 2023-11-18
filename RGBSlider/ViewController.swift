@@ -22,7 +22,14 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
+    
+    @IBAction func redSliderValueChanged() {
+    }
+    
+    @IBAction func greenSliderValueChanged() {
+    }
+    
+    @IBAction func blueSliderValueChanged() {
+    }
 }
 
