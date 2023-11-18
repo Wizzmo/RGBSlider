@@ -15,6 +15,10 @@ final class ViewController: UIViewController {
     @IBOutlet var greenColourIntensityLabel: UILabel!
     @IBOutlet var blueColourIntensityLabel: UILabel!
     
+    @IBOutlet var redSlider: UISlider!
+    @IBOutlet var greenSlider: UISlider!
+    @IBOutlet var blueSlider: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

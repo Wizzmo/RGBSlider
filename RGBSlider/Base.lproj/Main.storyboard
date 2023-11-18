@@ -134,9 +134,12 @@
                     </view>
                     <connections>
                         <outlet property="blueColourIntensityLabel" destination="BzZ-vM-HME" id="2iJ-CU-eM0"/>
+                        <outlet property="blueSlider" destination="Nkd-Wt-LYr" id="5jH-fI-dLN"/>
                         <outlet property="colourPanelView" destination="y6S-wR-kgy" id="YFQ-Iy-jGQ"/>
                         <outlet property="greenColourIntensityLabel" destination="ewj-BC-uuL" id="eBu-b0-Qje"/>
+                        <outlet property="greenSlider" destination="hzG-Zp-YPU" id="ya0-HP-ltW"/>
                         <outlet property="redColourIntensityLabel" destination="3sY-pR-Sal" id="3bc-xF-FuK"/>
+                        <outlet property="redSlider" destination="HAy-lD-05M" id="fP9-hm-tA6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
