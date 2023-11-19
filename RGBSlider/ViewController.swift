@@ -21,7 +21,9 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupColourPanelView()
+        
+        colourPanelView.layer.cornerRadius = 20
+        
         changeViewBackgroundColour()
         setupLabels()
     }
@@ -45,10 +47,6 @@ final class ViewController: UIViewController {
         redColourIntensityLabel.text = redSlider.value.formatted()
         greenColourIntensityLabel.text = greenSlider.value.formatted()
         blueColourIntensityLabel.text = blueSlider.value.formatted()
-    }
-    
-    private func setupColourPanelView() {
-        colourPanelView.layer.cornerRadius = 20
     }
     
     private func changeViewBackgroundColour() {
