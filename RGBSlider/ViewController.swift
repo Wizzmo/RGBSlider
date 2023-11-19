@@ -48,9 +48,9 @@ final class ViewController: UIViewController {
     
     // MARK: - Private Methods
     private func setupLabels() {
-        redColourIntensityLabel.text = redSlider.value.formatted()
-        greenColourIntensityLabel.text = greenSlider.value.formatted()
-        blueColourIntensityLabel.text = blueSlider.value.formatted()
+        redColourIntensityLabel.text = String(round(redSlider.value  * 100) / 100)
+        greenColourIntensityLabel.text = String(round(greenSlider.value  * 100) / 100)
+        blueColourIntensityLabel.text = String(round(blueSlider.value  * 100) / 100)
     }
     
     private func changeViewBackgroundColour() {
