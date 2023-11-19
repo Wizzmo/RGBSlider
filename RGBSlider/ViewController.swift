@@ -9,6 +9,7 @@ import UIKit
 
 final class ViewController: UIViewController {
 
+    // MARK: - IB Outlets
     @IBOutlet var colourPanelView: UIView!
     
     @IBOutlet var redColourIntensityLabel: UILabel!
@@ -19,6 +20,7 @@ final class ViewController: UIViewController {
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
     
+    // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +30,7 @@ final class ViewController: UIViewController {
         setupLabels()
     }
     
+    // MARK: - IB Actions
     @IBAction func redSliderValueChanged() {
         changeViewBackgroundColour()
         redColourIntensityLabel.text = String(format: "%.2f", redSlider.value)
@@ -43,6 +46,7 @@ final class ViewController: UIViewController {
         blueColourIntensityLabel.text = String(format: "%.2f", blueSlider.value)
     }
     
+    // MARK: - Private Methods
     private func setupLabels() {
         redColourIntensityLabel.text = redSlider.value.formatted()
         greenColourIntensityLabel.text = greenSlider.value.formatted()
