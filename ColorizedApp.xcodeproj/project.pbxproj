@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 98D3C3A52B07B7D800314600 /* Build configuration list for PBXProject "RGBSlider" */;
+			buildConfigurationList = 98D3C3A52B07B7D800314600 /* Build configuration list for PBXProject "ColorizedApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -348,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98D3C3A52B07B7D800314600 /* Build configuration list for PBXProject "RGBSlider" */ = {
+		98D3C3A52B07B7D800314600 /* Build configuration list for PBXProject "ColorizedApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98D3C3BC2B07B7D900314600 /* Debug */,
